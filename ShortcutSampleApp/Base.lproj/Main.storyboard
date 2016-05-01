@@ -676,6 +676,26 @@
                             <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fOc-F7-8NR" customClass="MASShortcutView">
                                 <rect key="frame" x="159" y="120" width="163" height="58"/>
                             </customView>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P80-TU-5YA">
+                                <rect key="frame" x="36" y="55" width="166" height="32"/>
+                                <buttonCell key="cell" type="push" title="Unregister K-Sortcut" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="MrL-cZ-ocT">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="unregisterKShortCutButtonClicked:" target="XfG-lQ-9wD" id="EGI-5q-NRI"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9mP-1B-mzx">
+                                <rect key="frame" x="222" y="55" width="121" height="32"/>
+                                <buttonCell key="cell" type="push" title="Unregister all" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Nle-Ul-vg5">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="unregisterAllButtonClicked:" target="XfG-lQ-9wD" id="F9T-8D-lGt"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                     <connections>
